@@ -1,0 +1,14 @@
+<!ELEMENT vlad.vdict (header, word+)>
+
+<!ELEMENT header (lang.from,lang.to) >
+<!ELEMENT lang.from (#PCDATA)>
+<!ELEMENT lang.to (#PCDATA)>
+
+<!ELEMENT word (inf, type, tr*)>
+<!ELEMENT inf (#PCDATA)>
+<!ELEMENT type (#PCDATA)>
+
+<!ELEMENT tr (txt, ex*)>
+<!ELEMENT txt (#PCDATA)>
+<!ELEMENT ex (#PCDATA)>
+
